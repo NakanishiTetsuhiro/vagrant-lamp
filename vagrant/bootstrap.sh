@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # 自分のVirtualBoxのバージョンを指定してください
-# VBOX_VER="5.2.6"
+# VBOX_VER="5.2.8"
 
 # Set timezone
 timedatectl set-timezone Asia/Tokyo

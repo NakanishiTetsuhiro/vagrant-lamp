@@ -18,4 +18,8 @@ Vagrant.configure("2") do |config|
   # ここにプロジェクトのドキュメントルートのパスを設定してください
   # ex.) config.vm.synced_folder "../my_project", "/vagrant/www", mount_options: ['dmode=777', 'fmode=777']
   config.vm.synced_folder "../blog", "/var/www/html", mount_options: ['dmode=777', 'fmode=777']
+
+  # config.vm.provision :shell, run: "always", :inline => <<-EOT
+  #   sudo service httpd restart
+  # EOT
 end
